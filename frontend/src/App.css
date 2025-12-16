@@ -1,0 +1,133 @@
+/* Root layout */
+.app-root {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #f5f5f5;
+  padding: 24px;
+  box-sizing: border-box;
+}
+
+/* Main card */
+.page {
+  width: 100%;
+  max-width: 1200px;
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 24px 32px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+}
+
+/* Headings */
+h2 {
+  margin: 0 0 16px;
+}
+
+h3 {
+  margin: 16px 0 8px;
+}
+
+h4 {
+  margin: 12px 0 8px;
+}
+
+/* ===== TWO COLUMN LAYOUT ===== */
+.projects-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* exact half */
+  gap: 24px;
+  margin-top: 16px;
+}
+
+/* Column cards */
+.column {
+  border: 1px solid #e5e7eb;
+  border-radius: 6px;
+  padding: 16px;
+  background: #fafafa;
+  min-height: 500px;
+  overflow-y: auto;
+}
+
+/* ===== FORMS ===== */
+form {
+  margin-bottom: 16px;
+}
+
+form div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+label {
+  width: 110px;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+input,
+select {
+  flex: 1;
+  padding: 6px 8px;
+  border: 1px solid #d1d5db;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+/* Buttons */
+button {
+  padding: 6px 12px;
+  border-radius: 4px;
+  border: none;
+  background-color: #2563eb;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+button:hover {
+  background-color: #1d4ed8;
+}
+
+/* Lists */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 8px 0;
+}
+
+li {
+  padding: 8px;
+  border-radius: 4px;
+}
+
+li:hover {
+  background-color: #e5e7eb;
+}
+
+/* Selected project / issue */
+li.selected {
+  background-color: #dbeafe;
+  font-weight: 600;
+}
+
+/* Issue row */
+.issue-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.issue-row select {
+  width: auto;
+}
+
+/* Comments */
+.comments {
+  margin-top: 16px;
+  padding-top: 12px;
+  border-top: 1px solid #e5e7eb;
+}

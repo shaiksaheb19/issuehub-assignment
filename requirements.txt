@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+sqlalchemy==1.4.*
+pydantic
+python-jose[cryptography]
+passlib[bcrypt]
+alembic
+pytest
+python-multipart
+httpx
