@@ -202,7 +202,7 @@ Covers authentication, projects, issues, comments, and RBAC rules
 pytest
 ```
 ---
-### 🚧 Known Limitations & Future Improvements
+### 🚧 Known Limitations & Possible Extensions
 
 **Current Limitations:**
 
@@ -212,10 +212,11 @@ pytest
 - `Comments are append-only`
 - `No Docker or CI/CD`
 
-**Planned / Future Improvements:**
+**Possible Extensions:**
 
 - `Alembic migrations`
 - `Refresh tokens`
 - `Issue filtering`
 - `Docker + GitHub Actions`
 - `Better RBAC`
+
